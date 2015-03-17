@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mitchellhenke/sequel_id_pagination.git
-  revision: da92eab3e348f690e4fc1c335ad60cce6567683f
+  revision: acb6ae12b24f8801855b05260e59916934d29753
   specs:
     sequel_id_pagination (0.0.1)
       sequel (~> 4.0)

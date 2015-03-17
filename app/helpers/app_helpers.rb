@@ -23,9 +23,7 @@ module AppHelpers
 
   def limit_dataset(dataset)
     if max_id || since_id
-      options = { max_id: max_id, since_id: since_id}
-      dataset = dataset.limit_by_id(page_size, options)
-
+      dataset = dataset.limit_by_id(page_size, since_id, max_id)
     elsif page_number
       dataset = dataset.limit(page_size, page_offset)
     end
